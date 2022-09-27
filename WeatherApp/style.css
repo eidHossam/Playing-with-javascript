@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container{
+    /* border: 2px solid; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#head{
+    /* border: 2px solid red; */
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 0;
+    color: rgb(115, 172, 175);
+}
+
+.app-search{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#search{
+    width: 400px;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding:8px 16px;
+}
+
+#submit{
+    padding: 5px 10px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s linear;
+}
+
+#submit:hover{
+    background-color: rgb(160, 156, 156);
+}
+
+.data-container{
+    /* border: 2px solid rgb(192, 187, 187); */
+    /* border-top: 0; */
+    border-left: calc(100% - 50px);
+    width: 400px;
+    margin-top: 50px;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+#city-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.65em;
+    height: 50px;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    /* border: 2px solid yellow; */
+    background-color: rgb(241, 236, 236);
+    border-radius: 5px 5px 0 0;
+    border: 2px solid rgb(192, 187, 187);
+}
+
+#data-list{
+    list-style: none;
+    /* padding-top: 50px; */
+    text-align: center;
+    border: 2px solid rgb(192, 187, 187);
+    border-top: 0;
+}
+
+#status{
+    padding-top: 40px;
+    margin-top: 0;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.data{
+    /* border: 2px solid; */
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+#max-temp{
+    margin-bottom: 10px;
+    color: rgb(192, 33, 33);
+}
+#min-temp{
+    color: rgb(103, 123, 129);
+}

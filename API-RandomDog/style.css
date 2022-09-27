@@ -1,0 +1,19 @@
+body{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#new{
+    font-size: 1.75em;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+}
+
+#new:hover{
+    background-color: aqua;
+}

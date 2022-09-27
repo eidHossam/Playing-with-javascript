@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./BACK.png) no-repeat center;
+    background-size: cover;   
+}
+
+
+.game{
+    width: 90vw;
+    background-color: rgb(161, 153, 153, 0.7);
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid;
+    padding-bottom: 10px;
+}
+
+
+h2{
+    font-size: 1.75em;
+    color: rgb(18, 85, 94);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.btn{
+    font-size: 3rem;
+    margin-right: 30px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 2px 0;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
+
+.btn:hover{
+    background-color: rgb(161, 161, 165);
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#game-board{
+    border: 2px solid;
+}
+
+#score{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.2s linear;
+    margin-right: 10px;
+}
+
+.btn:hover{
+    background-color: grey;
+}

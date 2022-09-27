@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.game{
+    margin-top: 5px;
+    text-align: center;
+}
+
+#gameBoard{
+    border: 3px solid ;
+}
+
+#score{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn{
+    margin: 0px 10px;
+    margin-bottom: 10px;
+    padding:5px 10px;
+    border-radius: 20px;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.2s linear;
+}
+
+.btn:hover{
+    background-color: grey;
+}
